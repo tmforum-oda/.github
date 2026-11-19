@@ -1,9 +1,19 @@
-Welcome to the **Open Digital Architecture - Component Accelerator**. Get started by viewing the **[Documentation](https://tmforum-oda.github.io/oda-ca-docs/)** and by reviewing the introductory video on the ODA Canvas at:
+Welcome to the **Open Digital Architecture Component Accelerator (ODA-CA)**. The Open Digital Architecture (ODA) Canvas is an execution environment for ODA Components.
 
-[![Intro to ODA Canvas?](https://i9.ytimg.com/vi_webp/B5lF94l-Dek/mqdefault.webp?v=68b56c9c&sqp=CMjY1cUG&rs=AOn4CLASAn8z8QTM8aIGYHlQiXa9MN3lgg)](https://youtu.be/B5lF94l-Dek?si=gKQAW57j8GEDx6Yv&t=1)
+## Start here
 
-The Open Digital Architecture (ODA) Canvas is an execution environment for ODA Components. [ODA-Canvas repository](https://github.com/tmforum-oda/oda-canvas) contains the Reference Implementation, open-source code, use-cases and test-kit for a TM Forum ODA canvas. 
+- **[Documentation](https://tmforum-oda.github.io/oda-ca-docs/)**: the ODA Canvas and ODA Components, how to install a Canvas and build components, and the [training videos](https://tmforum-oda.github.io/oda-ca-docs/docs/training-videos/index.html).
+- **[oda-canvas](https://github.com/tmforum-oda/oda-canvas)**: the Canvas reference implementation, with its operators, Helm charts, use-case library and BDD test kit.
+- **[reference-example-components](https://github.com/tmforum-oda/reference-example-components)**: example ODA Components that show how to build a component. For all the standard components, see the [ODA Component Directory](https://www.tmforum.org/oda/directory).
 
-There is a [oda-ca-docs](https://github.com/tmforum-oda/oda-ca-docs) documentation repository that powers the [Documentation](https://tmforum-oda.github.io/oda-ca-docs/) - this is only for documentation maintainers. 
+## Standalone operators
 
-There are [reference-example-components](https://github.com/tmforum-oda/reference-example-components) that give examples on how to build ODA Components. For the full list of example ODA Components, see [ODA Component Directory](https://www.tmforum.org/oda/directory).
+Most Canvas operators are in [oda-canvas](https://github.com/tmforum-oda/oda-canvas/tree/main/source/operators). Newer operators are developed in their own repositories, so each can be versioned and released independently:
+
+| Operator | Status | Repository |
+|---|---|---|
+| TMFOP006 Event Management | Experimental | [TMFOP006-Event-Management](https://github.com/tmforum-oda/TMFOP006-Event-Management) |
+| TMFOP009 Model-as-a-Service | Experimental | Not public yet |
+| TMFOP012 Data Products Lifecycle Management | Experimental | Not public yet |
+
+See the [operator catalogue](https://github.com/tmforum-oda/oda-canvas/blob/main/source/operators/README.md) for every operator and its status.
